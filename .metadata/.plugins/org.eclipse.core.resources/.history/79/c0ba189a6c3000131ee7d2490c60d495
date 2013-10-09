@@ -1,0 +1,17 @@
+/*
+ * display.cpp
+ *
+ *  Created on: Oct 9, 2013
+ *      Author: sumit4iit
+ */
+#include<iostream>
+#include "cv.h"
+#include "highgui.h"
+
+using namespace cv;
+using namespace std;
+
+
+
+
+

@@ -1,0 +1,20 @@
+
+**** Build of configuration Debug for project test ****
+
+make all 
+Building target: test
+Invoking: Cross G++ Linker
+g++ -L/usr/lib -o "test"  ./test.o   -l-lopencv -l-lopencv_imgproc -l-lopencv_highgui -l-lopencv_ml  -l-lopencv_video -l-lopencv_features2d -l-lopencv_calib3d -l-lopencv_objdetect  -l-lopencv_core 
+/usr/bin/ld: cannot find -l-lopencv
+/usr/bin/ld: cannot find -l-lopencv_imgproc
+/usr/bin/ld: cannot find -l-lopencv_highgui
+/usr/bin/ld: cannot find -l-lopencv_ml
+/usr/bin/ld: cannot find -l-lopencv_video
+/usr/bin/ld: cannot find -l-lopencv_features2d
+/usr/bin/ld: cannot find -l-lopencv_calib3d
+/usr/bin/ld: cannot find -l-lopencv_objdetect
+/usr/bin/ld: cannot find -l-lopencv_core
+collect2: ld returned 1 exit status
+make: *** [test] Error 1
+
+**** Build Finished ****

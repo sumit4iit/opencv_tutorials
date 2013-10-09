@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.pde.ui.RuntimeWorkbench">
+<booleanAttribute key="append.args" value="true"/>
+<stringAttribute key="application" value="helloworld.application"/>
+<booleanAttribute key="askclear" value="true"/>
+<booleanAttribute key="automaticAdd" value="false"/>
+<stringAttribute key="checked" value="[NONE]"/>
+<booleanAttribute key="clearws" value="false"/>
+<booleanAttribute key="default" value="false"/>
+<stringAttribute key="location" value="${workspace_loc}/../runtime-helloworld.application"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-os ${target.os} -ws ${target.ws} -arch ${target.arch} -nl ${target.nl} -consoleLog"/>
+<stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Xms40m -Xmx384m -Dorg.eclipse.equinox.p2.reconciler.dropins.directory=/usr/share/eclipse/dropins"/>
+<booleanAttribute key="pde.generated.config" value="true"/>
+<stringAttribute key="pde.version" value="3.3"/>
+<stringAttribute key="selected_target_plugins" value="com.ibm.icu*4.4.2.v20110823,javax.servlet*2.5.0.v200806031605,org.eclipse.core.commands*3.6.0.dist,org.eclipse.core.contenttype*3.4.100.dist,org.eclipse.core.databinding*1.4.0.dist,org.eclipse.core.databinding.observable*1.4.0.dist,org.eclipse.core.databinding.property*1.4.0.dist,org.eclipse.core.expressions*3.4.300.dist,org.eclipse.core.jobs*3.5.101.dist,org.eclipse.core.runtime*3.7.0.dist,org.eclipse.core.runtime.compatibility.auth*3.2.200.dist,org.eclipse.core.runtime.compatibility.registry*3.5.0.dist,org.eclipse.equinox.app*1.3.100.dist,org.eclipse.equinox.common*3.6.0.dist,org.eclipse.equinox.preferences*3.4.2.dist,org.eclipse.equinox.registry*3.5.101.dist,org.eclipse.help*3.5.100.dist,org.eclipse.jface*3.7.0.dist,org.eclipse.jface.databinding*1.5.0.dist,org.eclipse.osgi*3.7.2.dist,org.eclipse.osgi.services*3.3.0.dist,org.eclipse.swt*3.7.2,org.eclipse.ui*3.7.0.dist,org.eclipse.ui.workbench*3.7.1.dist"/>
+<stringAttribute key="selected_workspace_plugins" value="helloworld*1.0.0.0"/>
+<booleanAttribute key="usefeatures" value="false"/>
+</launchConfiguration>

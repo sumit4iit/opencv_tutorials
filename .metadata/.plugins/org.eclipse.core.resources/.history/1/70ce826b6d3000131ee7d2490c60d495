@@ -1,0 +1,36 @@
+/*
+ * display.cpp
+ *
+ *  Created on: Oct 9, 2013
+ *      Author: sumit4iit
+ */
+#include<iostream>
+#include "cv.h"
+#include "highgui.h"
+#include <cstring>
+using namespace cv;
+using namespace std;
+
+int main()
+{
+	cout<<"Enter image path";
+	string path = "res/image.jpg";
+
+	Mat image = imread(path,CV_LOAD_IMAGE_COLOR);
+
+	if(!image.data)
+	{
+		cout<<"fail\n";
+		return -1;
+	}
+	namedWindow("out",CV_WINDOW_AUTOSIZE);
+	imshow("out",image);
+
+	waitKey(0);
+	return 0;
+
+
+}
+
+
+

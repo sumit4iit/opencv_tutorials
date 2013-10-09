@@ -1,0 +1,26 @@
+import java.io.*;
+import java.net.*;
+
+class TcpServer
+{
+	public static void main(String argv[]) throws Exception
+	{
+		String clientSentence;	
+		ServerSocket welcomeSocket = new ServerSocket(1234);
+		boolean add, ack ,di;
+		double val = 0;
+		while(true)
+		{
+			Socket connectionSocket = welcomeSocket.accept();
+			BufferedReader inFromClient = new BufferedReader(new InputStreamReader(connectionSocket.getInputStream()));
+			DataOutputStream outToClient = new DataOutputStream(connectionSocket.getOutputStream());
+			clientSentence	 = inFromClient.readLine();
+			System.out.println("Rreceived: " + clientSentence);
+			
+			
+			
+			outToClient.writeBytes(String.valueOf(clientSentence) +'\n'); 
+		}
+	}
+
+}

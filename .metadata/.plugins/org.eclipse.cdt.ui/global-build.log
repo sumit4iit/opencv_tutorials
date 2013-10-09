@@ -1,0 +1,53 @@
+
+**** Build of configuration Debug for project tutDisplayImage ****
+
+make all 
+Building target: tutDisplayImage
+Invoking: Cross G++ Linker
+g++ -L/usr/lib -o "tutDisplayImage"  ./display.o   -lopencv_core  -lopencv_imageproc -lopencv_highgui
+/usr/bin/ld: cannot find -lopencv_imageproc
+collect2: ld returned 1 exit status
+make: *** [tutDisplayImage] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tutDisplayImage ****
+
+make all 
+Building target: tutDisplayImage
+Invoking: Cross G++ Linker
+g++ -L/usr/lib -o "tutDisplayImage"  ./display.o   -lopencv_core  -lopencv_imgproc -lopencv_highgui
+Finished building target: tutDisplayImage
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tutDisplayImage ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tutDisplayImage ****
+
+make all 
+Building file: ../display.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"display.d" -MT"display.d" -o "display.o" "../display.cpp"
+Finished building: ../display.cpp
+ 
+Building target: tutDisplayImage
+Invoking: Cross G++ Linker
+g++ -L/usr/lib -o "tutDisplayImage"  ./display.o   -lopencv_core  -lopencv_imgproc -lopencv_highgui
+Finished building target: tutDisplayImage
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tutDisplayImage ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****

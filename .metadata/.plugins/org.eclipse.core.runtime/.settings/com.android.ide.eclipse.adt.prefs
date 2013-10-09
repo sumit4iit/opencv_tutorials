@@ -1,0 +1,6 @@
+com.android.ide.eclipse.adt.fixLegacyEditors=1
+com.android.ide.eclipse.adt.sdk=/home/sumit4iit/android-sdk
+com.android.ide.eclipse.adt.xmlEditor=true
+com.android.ide.eclipse.editorsResourceExplorer.Col1=201
+com.android.ide.eclipse.editorsResourceExplorer.Col2=185
+eclipse.preferences.version=1
